@@ -79,7 +79,7 @@ class OffAmazonPaymentsService_Model_ConfirmOrderReferenceRequest extends OffAma
      * @param string URL
      * @return this instance
      */
-    public function getSuccessUrl($value)
+    public function getSuccessUrl()
     {
         return $this->_fields['SuccessUrl']['FieldValue'];
     }
@@ -112,7 +112,7 @@ class OffAmazonPaymentsService_Model_ConfirmOrderReferenceRequest extends OffAma
      * @param string URL
      * @return this instance
      */
-    public function getFailureUrl($value)
+    public function getFailureUrl()
     {
         return $this->_fields['FailureUrl']['FieldValue'];
     }
